@@ -26,4 +26,3 @@ We work with WordPress using [Bedrock](https://roots.io/bedrock/) & [Sage](https
 5. Pay attention to code quality, formatting, conventions etc. (Your code is your business card)
 6. Try to optimize images :)
 7. Send us access to your repo to check out your work!
-8. You can use Sheetsy for fetching data!
