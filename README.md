@@ -2,20 +2,25 @@
 
 Hi!
 
-Thank you for joining our recruitment process @ Clean Commit! This task will test how you can work with front end project.
+Thank you for joining our recruitment process @ Clean Commit! This task will test how you can work with a fresh WordPress project.
 
 ![Wordpress](images/cover.jpg)
 
 ## Task
 
-We have to create a landing page for our clients using Wordpress. Can you ship it?
+- [] Setup local env using Laravel Homestead
+- [] Create a theme for the landing page using Sage theme
+- [] Prepare a hero section using ACF Flexible Content
+- [] Export DB and add it to the repo
+- [] Default domain for the project should be `[github-handle]-cc-lp.local`
 
-The design can be found in sources library in .fig in sources directory.
-Our designers work mostly with Figma, but you can choose whichever you like!
+## Description
 
-## Requirements
+This is a simple task for WordPress devs, all you need to do is spin up a local env using Homestead, create a new theme, and prepare one section using ACF Flexible Content (this section has to be available on every page (excluding posts)).
 
-We work with WordPress using [Bedrock](https://roots.io/bedrock/) & [Sage](https://roots.io/sage/) starting theme. Please use this resources to create a theme based on the design in Sources directory.
+The design can be found in the sources library in .fig in the sources directory.
+
+ACF plugin can be found in the `plugins` folder.
 
 ## Rules & Hints
 
@@ -23,6 +28,9 @@ We work with WordPress using [Bedrock](https://roots.io/bedrock/) & [Sage](https
 2. Use Tailwind as your framework
 3. Use Blade as templating language.
 4. Styles should be written in Sass (SCSS).
-5. Pay attention to code quality, formatting, conventions etc. (Your code is your business card)
-6. Try to optimize images :)
+5. Pay attention to code quality, formatting, conventions, etc. (Your code is your business card)
+6. Make sure images are correctly optimized
 7. Send us access to your repo to check out your work!
+8. Sage 9.0.10 isn't working correctly, you can use Sage 10 or 9.0.9
+9. Only use ACF plugin (except mu-plugins)
+10. ACF fields must be saved as a .json file in the theme
