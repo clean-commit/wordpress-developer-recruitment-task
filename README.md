@@ -8,12 +8,12 @@ Thank you for joining our recruitment process @ Clean Commit! This task will tes
 
 ## Task
 
-- [] Setup local env using Laravel Homestead & Roots Bedrock (the root of the project should be uploaded)
-- [] Create a theme for the landing page using Sage theme
-- [] Prepare a hero section using ACF Flexible Content (We should be able to replicate this section infinitely on any page)
-- [] Export DB as SQL file and add it to the theme folder
-- [] Default domain for the project should be `wp-recruitment-env.test`
-- [] Theme folder should be called `[github-handle]-cc-lp`
+- [ ] Setup local env using Laravel Homestead & Roots Bedrock (the root of the project should be uploaded)
+- [ ] Create a theme for the landing page using Sage theme
+- [ ] Prepare a hero section using ACF Flexible Content (We should be able to replicate this section infinitely on any page)
+- [ ] Export DB as SQL file and add it to the theme folder
+- [ ] Default domain for the project should be `wp-recruitment-env.test`
+- [ ] Theme folder should be called `[github-handle]-cc-lp`
 
 ## Description
 
